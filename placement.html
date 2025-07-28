@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CBIT Placement Analysis</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #004d40;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    .top{
+       color:white;
+      }
+
+    .content {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    h1 {
+      color: #004d40;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #004d40;
+      padding-bottom: 5px;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 1.2rem;
+      }
+      img {
+        width: 95%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="top">📊 CBIT Placement Analysis Dashboard</h1>
+    <p>Visual Insights into Departments, CTCs, Internships & More</p>
+  </header>
+
+  <div class="content">
+    <h1>Total Placements by Department</h1>
+    <img src="output/placements_by_department.png" alt="Placements by Department">
+
+    <h1>Placements Over Years</h1>
+    <img src="output/placements_by_year.png" alt="Placements Over Years">
+
+    <h1>Average CTC</h1>
+    <img src="output/avg_ctc_by_department.png" alt="Average CTC by Department">
+
+    <h1>Average Internship Stipend</h1>
+    <img src="output/avg_stipend_by_department.png" alt="Average Stipend by Department">
+
+    <h1>Top Designations</h1>
+    <img src="output/top_designations.png" alt="Top Job Roles">
+  </div>
+
+</body>
+</html>

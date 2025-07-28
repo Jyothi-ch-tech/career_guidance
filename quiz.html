@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Branch Recommendation Quiz - CBIT</title>
+  <link rel="stylesheet" href="assets/styles/style.css" />
+  <script defer src="assets/scripts/quiz.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🧠 CBIT Branch Recommendation Quiz</h1>
+    <p>Answer a few questions and find your ideal branch!</p>
+  </header>
+
+  <main class="branch-details">
+    <form id="quizForm">
+      <section>
+        <h2>1. What excites you the most?</h2>
+        <label><input type="radio" name="q1" value="cse" required /> Writing code / Solving logical puzzles</label><br />
+        <label><input type="radio" name="q1" value="ece" /> Circuits, devices, electronics</label><br />
+        <label><input type="radio" name="q1" value="civil" /> Buildings, design, infrastructure</label><br />
+        <label><input type="radio" name="q1" value="mech" /> Machines, engines, manufacturing</label>
+      </section>
+
+      <section>
+        <h2>2. Which subject do you enjoy the most?</h2>
+        <label><input type="radio" name="q2" value="cse" required /> Computer Science</label><br />
+        <label><input type="radio" name="q2" value="ece" /> Physics / Electronics</label><br />
+        <label><input type="radio" name="q2" value="mech" /> Mechanics / Drawing</label><br />
+        <label><input type="radio" name="q2" value="chemical" /> Chemistry / Experiments</label>
+      </section>
+
+      <section>
+        <h2>3. Which career path do you prefer?</h2>
+        <label><input type="radio" name="q3" value="it" required /> Software / App Developer</label><br />
+        <label><input type="radio" name="q3" value="ece" /> Chip Design / Embedded Systems</label><br />
+        <label><input type="radio" name="q3" value="aids" /> Data Science / AI</label><br />
+        <label><input type="radio" name="q3" value="biotech" /> Bio-related Research</label>
+      </section>
+
+      <div style="margin-top: 20px;">
+        <button type="submit" style="padding: 10px 20px; background: #00796b; color: white; border: none; border-radius: 8px; cursor: pointer;">
+          Submit & Get Recommendation
+        </button>
+      </div>
+    </form>
+
+    <div id="result" style="margin-top: 30px; font-weight: bold; font-size: 1.3rem;"></div>
+
+    <div style="margin-top: 30px;">
+      <a href="index.html" style="text-decoration: none; color: white; background: #5c6bc0; padding: 10px 20px; border-radius: 8px;">← Back to Home</a>
+    </div>
+  </main>
+</body>
+</html>
