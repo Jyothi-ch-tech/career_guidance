@@ -3,6 +3,7 @@
 <head>
   <title>CBIT Placement Analysis</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
@@ -17,9 +18,10 @@
       padding: 20px 40px;
       text-align: center;
     }
-    .top{
-       color:white;
-      }
+
+    .top {
+      color: white;
+    }
 
     .content {
       max-width: 1000px;
@@ -44,6 +46,26 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
+    .back-button {
+      text-decoration: none;
+      color: white;
+      background: #00796b;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 30px;
+      transition: background 0.3s;
+    }
+
+    .back-button:hover {
+      background: #004d40;
+    }
+
+    .back-container {
+      text-align: left;
+    }
+
     @media (max-width: 768px) {
       h1 {
         font-size: 1.2rem;
@@ -65,7 +87,7 @@
     <h1>Total Placements by Department</h1>
     <img src="output/placements_by_department.png" alt="Placements by Department">
 
-    <h1>Placements Over Years</h1>
+    <h1>Placements Over Years (2025 is not completed; this is up to Feb 2025)</h1>
     <img src="output/placements_by_year.png" alt="Placements Over Years">
 
     <h1>Average CTC</h1>
@@ -76,8 +98,12 @@
 
     <h1>Top Designations</h1>
     <img src="output/top_designations.png" alt="Top Job Roles">
+
+    <!-- Back to Home Button -->
+    <div class="back-container">
+      <a href="index.html" class="back-button">← Back to Home</a>
+    </div>
   </div>
-  <a href="../index.html" class="btn"  style="text-decoration: none; color: white; background: #00796b; padding: 0.8rem 1.5rem; border-radius: 8px;">← Back to Home</a>
 
 </body>
 </html>
